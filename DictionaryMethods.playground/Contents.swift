@@ -83,6 +83,7 @@ if let fastMovies = movies["The Fast and the Furious"] {
 
 movies["The Fast and the Furious"] = nil
 
+movies["The Fast and the Furious"] = fastAndFuriousFilms
 if let fast3rFilms = movies["The Fast and the Furious"] {
     print("\(fast3rFilms)")
 } else {
